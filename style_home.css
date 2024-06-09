@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.home_img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home_img img {
+    width: 1000px;
+    height: auto;
+}
+
+
+.text_home{
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    z-index: 10;
+    border-bottom: solid 2px rgba(139, 69, 19, 0.5);
+    font-size: 32px;
+}
+
+.text_home {
+    position: absolute;
+    top: 43%;
+    left: 24.5%;
+    transform: translate(-50%, -50%);
+}
+.text_home2 {
+    position: absolute;
+    top: 55%;
+    left: 39.5%;
+    transform: translate(-50%, -50%);
+}
+
+.text_home2{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;  
+    
+}
+#btn_home1{
+    background-color: chocolate;
+    position: absolute;
+    top: 66.5%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(139,69,19, 0.5);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+#btn_home2{
+    background: none;
+    position: absolute;
+    top: 66.5%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#btn_home2 .fa-phone {
+   background-color: rgba(139,69,19, 0.5);
+   padding: 3px;
+   border-radius: 5px; 
+}
+
+#btn_home1:hover{
+    background-color:rgba(139,69,19, 0.7);
+}
+
+#btn_home2:hover {
+    background-color: rgb(203, 203, 203);
+}
+
+#btn_home2:hover .fa-phone {
+    background-color: rgba(139, 69, 19, 0.7); 
+}
+
+#icon_whatsapp {
+    position: relative;
+    bottom:180px; 
+    left: 126.5px;
+    border-radius: 12%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+#icon_whatsapp i{
+    font-size: 15px;
+    color: black;
+}
+
+#icon_whatsapp:hover{
+    background-color: rgb(203, 203, 203);
+}
+
+#icon_facebook{
+    position: relative;
+    bottom:180px; 
+    left: 126.5px;
+    border-radius: 12%;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    border-radius: 12px;
+    padding: 7px 10px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;    
+}
+#icon_facebook i{
+    font-size: 16.5px;
+    color: rgb(0, 0, 0);
+}
+#icon_facebook:hover{
+    background-color: rgb(203, 203, 203)
+}
+
+#icon_insta{
+    position: relative;
+    bottom:180px; 
+    left: 126.5px;
+    border-radius: 12%;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    border-radius: 12px;
+    padding: 8px 11px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;   
+}
+
+#icon_insta i{
+    font-size: 16.5px;
+    color: rgb(0, 0, 0);
+}
+#icon_insta:hover{
+    background-color: rgb(203, 203, 203)
+}

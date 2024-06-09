@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.cardapio {
+    background-color: rgb(122, 72, 36);
+}
+
+.text_cardapio1 {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+.text_cardapio1 span {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.8);
+    color: rgb(217, 217, 217);
+    transition: 1s ease;
+    font-size: 32px;
+}
